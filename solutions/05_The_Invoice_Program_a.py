@@ -10,7 +10,7 @@ def get_discount(user_type):
 
 def invoice_print(total_bill_amount, discount):
         
-    # Dicount amount calculation
+    # Discount amount calculation
     discount_amount = discount * total_bill_amount / 100 
     
     # Total Amount to Pay

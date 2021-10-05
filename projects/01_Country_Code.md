@@ -1,9 +1,12 @@
 ### The Country Code Program
 
-Initialize a dictionary as below - 
+Initialize a dictionary as below -
+
 ```
 country_code = {'CA':'Canada', 'US': 'United States', 'MX': 'Mexico', 'IN': 'India', 'CN': 'China', 'UK': 'United Kingdom'}
 ```
+
+Program execution will be as below -
 
 ```
 ############################### Welcome to Country Code Interface ###############################
@@ -11,33 +14,32 @@ country_code = {'CA':'Canada', 'US': 'United States', 'MX': 'Mexico', 'IN': 'Ind
 
 COMMAND MENU:
 	view - View Country name
-	add - Add Country 
+	add - Add Country
 	del - Delete a Country
 	exit - Exit Program
-	
-Enter your command: view 
-Country Codes: CA US MX IN CN UK
-Enter Country Code: mx 
-Country Name: Mexico 
 
-Enter your command: add 
+Enter your command: view
+Country Codes: CA US MX IN CN UK
+Enter Country Code: mx
+Country Name: Mexico
+
+Enter your command: add
 Enter Country Code: nl
 Enter Country Name: netherlands
-Netherlands was added to list. 
+Netherlands was added to list.
 
-Enter your command: view 
+Enter your command: view
 Country Codes: CA US MX IN CN UK NL
-Enter Country Code: nl 
-Country Name: Netherlands 
+Enter Country Code: nl
+Country Name: Netherlands
 
-Enter your command: del 
+Enter your command: del
 Country Codes: CA US MX IN CN UK NL
-Enter Country Code: cn 
-China was deleted from list. 
+Enter Country Code: cn
+China was deleted from list.
 
 Enter your command: exit
-Bye! 
+Bye!
 
 ############################### END ###############################
-``` 
-
+```
